@@ -31,6 +31,7 @@ https://github.com/GerasimoivSV/git_2/blob/main/readme.md
 1. Сделайте коммит и пуш.
 
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
+https://github.com/GerasimoivSV/git_2/blob/main/.gitignore
 
 ---
 
