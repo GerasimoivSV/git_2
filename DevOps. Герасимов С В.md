@@ -27,9 +27,9 @@
 2. Перепишите сборку из задания 1 на declarative в виде кода.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-![image]()
-![image]()
-![image]()
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/2.png)
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/2-1.png)
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/2-2.png)
 
 ---
 
