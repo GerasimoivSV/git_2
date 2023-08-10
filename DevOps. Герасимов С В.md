@@ -12,9 +12,9 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/1.png)
-![image]()
-![image]()
-![image]()
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/1-1.png)
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/1-2.png)
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/1-3.png)
 
 
 ---
