@@ -46,6 +46,7 @@
 ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3.png)
 ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3-1.png)
 ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3-2.png)
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3-5.png)
 ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3-3.png)
 ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3-4.png)
 
