@@ -5,7 +5,7 @@
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
 
 #### Конфигурационный файл HAproxy
-  ![image]()
+  ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/1hh.png)
 ```
 global
 	log /dev/log	local0
@@ -74,7 +74,7 @@ listen web_tcp
         server s1 127.0.0.1:8888 check inter 3s
         server s2 127.0.0.1:9999 check inter 3s
 ```
-![image]()
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/2hh.png)
 ### Задание 2
 - Запустите три simple python сервера на своей виртуальной машине на разных портах
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
@@ -82,7 +82,7 @@ listen web_tcp
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
   
 #### Конфигурационный файл HAproxy
-  ![image]()
+  ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/3hh.png)
 ```
 global
 	log /dev/log	local0
@@ -144,6 +144,6 @@ backend web_servers    # секция бэкенд
         server s2 127.0.0.1:9999 weight 3 check
       	server s3 127.0.0.1:7777 weight 4 check
 ```
- ![image]()
+ ![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/4hh.png)
 
 ---
