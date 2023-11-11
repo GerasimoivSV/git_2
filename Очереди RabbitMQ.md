@@ -72,6 +72,6 @@ $ rabbitmqadmin get queue='hello'
 
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
-![image](![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/9MQ.png))
+![image](https://github.com/GerasimoivSV/git_2/blob/GerasimoivSV-patch-1/9MQ.png)
 
 *Приложите скриншот результата работы второго скрипта.*
