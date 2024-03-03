@@ -1,0 +1,29 @@
+- hosts: elastic.ru-central1.internal
+  become: yes
+  gather_facts: true
+
+  tasks:
+
+  - name: Установка elasticsearch
+
+    apt:
+      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/e/elasticsearch/elasticsearch-7.15.1-amd64.deb"
+
+  - name: Копируем конфиг файл elasticsearch
+    copy:
+      src: /home/user/111/elastic.yml
+      dest: /etc/elasticsearch/elasticsearch.yml
+
+  - name: daemon_reload
+    systemd:
+      daemon_reload: true
+
+  - name: добавляем elasticsearch в автозагрузку
+    systemd:
+      name: elasticsearch.service
+      enabled: true
+
+  - name: Перезапускаем службы
+    systemd:
+      name: elasticsearch.service
+      state: started
