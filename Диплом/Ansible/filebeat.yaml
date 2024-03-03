@@ -1,0 +1,27 @@
+---
+
+- hosts: web
+  become: yes
+  gather_facts: true
+  tasks:
+
+  - name: Копируем filebeat
+    copy:
+      src: /home/user/filebeat-7.17.11-amd64.deb
+      dest: /home/user
+
+  - name: Устанавливаем filebeat
+    apt:
+      deb: /home/user/filebeat-7.17.11-amd64.deb
+
+  - name: Копируем конфиг filebeat
+    copy:
+      src: /home/user/111/filebeat.yml
+      dest: /etc/filebeat/filebeat.yml
+
+  - name: Перезапускаем сервисы
+
+    systemd:
+      name: filebeat
+      enabled: yes
+      state: started
