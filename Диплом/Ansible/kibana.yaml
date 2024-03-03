@@ -1,0 +1,27 @@
+- hosts: kibana.ru-central1.internal
+  become: yes
+  gather_facts: true
+  tasks:
+
+  - name: Установка kibana
+    apt:
+      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/k/kibana/kibana-7.15.1-amd64.deb"
+
+  - name: Копируем конфигурационный файл kibana
+    copy:
+      src: /home/user/111/kibana.yml
+      dest: /etc/kibana/kibana.yml
+
+  - name: daemon_reload
+    systemd:
+      daemon_reload: true
+
+  - name: добавляем kibana в автозагрузку
+    systemd:
+      name: kibana
+      enabled: true
+
+  - name: Перезапускаем службы
+    systemd:
+      name: kibana
+      state: started
